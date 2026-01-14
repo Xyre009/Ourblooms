@@ -1,0 +1,41 @@
+.servicesContent{
+    display: grid;
+    grid-template-areas: 'sechead sechead servnod1 servnod1 servnod1 servnod1 servnod1 servnod1 servnod1 servnod1 servnod1'
+    'sechead sechead servnod2 servnod2 servnod2 servnod2 servnod2 servnod2 servnod2 servnod2 servnod2'
+    'sechead sechead servnod3 servnod3 servnod3 servnod3 servnod3 servnod3 servnod3 servnod3 servnod3';
+}
+
+.serviceModule1{
+    display: flex;
+    text-align: start;
+    padding: 30px 0px;
+    justify-content: space-between;
+
+}
+
+.serviceModule2{
+    display: flex;
+    text-align: start;
+    padding: 30px 0px;
+    justify-content: space-between;
+}
+
+.serviceModule3{
+    display: flex;
+    text-align: start;
+    padding: 30px 0px;
+    justify-content: space-between;
+}
+
+
+
+@media screen and (max-width:900px){
+    .serviceModule{
+        flex-direction: column;
+        align-items: center;
+        gap:20px;
+    }
+}
+.servnod1{
+    grid-area: servnod1;
+}

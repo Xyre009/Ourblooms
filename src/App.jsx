@@ -1,7 +1,7 @@
 import Hero from './components/Hero.jsx'
 import Navbar from './components/Navbar.jsx'
-import image1 from './assets/images/image1.jpg'
-import image2 from './assets/images/image2.jpg'
+import image1 from './assets/carousel_images/Image 1.png'
+
 
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
 function App() {
