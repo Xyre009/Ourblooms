@@ -1,4 +1,4 @@
-import log from '../path-to-your-image-file'; // Update the path to the correct location of your image file
+
 
 function Hero() {
     return(
